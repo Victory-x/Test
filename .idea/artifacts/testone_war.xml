@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="testone:war">
+    <output-path>$PROJECT_DIR$/testone/target</output-path>
+    <root id="archive" name="main.war">
+      <element id="artifact" artifact-name="testone:war exploded" />
+    </root>
+  </artifact>
+</component>
