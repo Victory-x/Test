@@ -3,6 +3,11 @@
     <output-path>$PROJECT_DIR$/testone/target</output-path>
     <root id="archive" name="main.war">
       <element id="artifact" artifact-name="testone:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testtwo" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
